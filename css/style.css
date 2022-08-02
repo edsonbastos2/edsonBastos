@@ -45,18 +45,45 @@ header ul {
     justify-content: center;
 }
 
-.banner--title {
-    width: 700px;
+#banner {
+    height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 115px 0 0 90px;
+    border-bottom: 10px solid #000;
 }
 
-.banner--title h1 {
+#banner .wrapper {
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+}
+
+#banner .navegation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#banner--box {
+    display: inline-block;
+    text-align: center;
+    background-color: #3a4042;
+    box-shadow: 10px 10px 0 #000;
+    padding: 42px 44px;
+    margin-bottom: 30px;
+}
+
+#banner--box h1 {
     font-family: 'Press Start 2P', sans-serif;
     font-size: 40px;
     color: #F2C409;
     text-shadow: 5px 5px 0 #000;
+    margin-bottom: 28px;
 }
 
-.banner--title h2 {
+#banner--box h2 {
     font-size: 30px;
     text-shadow: 4px 4px 0 #000;
     color: #fff;
