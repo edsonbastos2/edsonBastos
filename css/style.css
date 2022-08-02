@@ -19,17 +19,20 @@ header a img {
 }
 
 header a {
-    color: #242424;
-    font-size: 20px;
-    font-family: 'Fira Code', monospace, sans-serif;
+    display: flex;
+    align-items: center;
+    color: #242424 !important;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', sans-serif;
     font-weight: 500;
     margin-right: 20px;
+    text-decoration: none !important;
 }
 
 header .link::before {
     content: "";
     display: inline-block;
-    background-color: #ffde59;
+    background-color: #F2C409;
     width: 10px;
     height: 10px;
     margin-right: 10px;
@@ -42,16 +45,19 @@ header ul {
     justify-content: center;
 }
 
-#btn-cv{
-    display: inline-block;
-    background-color: #ffde59;
-    padding: 15px 20px;
-    box-shadow: 5px 5px 0px #000;
-    margin-right: 0;
-    transition: .5s all;
+.banner--title {
+    width: 700px;
 }
 
-#btn-cv:hover {
-    background-color: #ffcd06;
-    transform: scale(1.1);
+.banner--title h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    color: #F2C409;
+    text-shadow: 5px 5px 0 #000;
+}
+
+.banner--title h2 {
+    font-size: 30px;
+    text-shadow: 4px 4px 0 #000;
+    color: #fff;
 }
