@@ -49,7 +49,7 @@ header ul {
     height: 500px;
     background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     padding: 115px 0 0 90px;
     border-bottom: 10px solid #000;
 }
@@ -75,7 +75,13 @@ header ul {
     margin-bottom: 30px;
 }
 
-#banner--box h1 {
+.skill {
+    background-color: #F2C409;
+    padding: 50px 0 100px 0;
+    border-bottom: 10px solid #202020;
+}
+
+.main-title {
     font-family: 'Press Start 2P', sans-serif;
     font-size: 40px;
     color: #F2C409;
@@ -83,8 +89,47 @@ header ul {
     margin-bottom: 28px;
 }
 
+.main-title.second {
+    text-align: center;
+    color: #000;
+    text-shadow: none;
+}
+
 #banner--box h2 {
     font-size: 30px;
     text-shadow: 4px 4px 0 #000;
+    color: #fff;
+}
+
+.skill-tec {
+    display: flex;
+}
+
+.skill-tec .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.progress-bar {
+    border: 5px solid #000;
+    height: 40px;
+}
+
+.progress-bar::-webkit-progress-value {
+    background-color: #00509d;
+}
+
+.progress-bar::-webkit-progress-bar {
+    background-color: #fff;
+}
+
+
+.skill-tec .icon {
+    margin-right: 25px;
+}
+
+.skill-tec .title {
+    font-size: 25px;
     color: #fff;
 }
