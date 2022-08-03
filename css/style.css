@@ -95,6 +95,23 @@ header ul {
     text-shadow: none;
 }
 
+.main-title.title-project {
+    color: #fff;
+    text-shadow: 5px 5px 0 #F2C409;
+}
+
+.main-title.title-project::after {
+    content: '';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 3px;
+    background-color: #fff;
+    margin: 20px auto;
+    box-shadow: 2px 2px 0 #F2C409;
+}
+
 #banner--box h2 {
     font-size: 30px;
     text-shadow: 4px 4px 0 #000;
@@ -153,6 +170,7 @@ header ul {
 
 .projetos {
     padding: 50px 0;
+    background-color: #000;
 }
 
 .content {
@@ -169,4 +187,5 @@ header ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 10px 10px 0 #fff;
 }
