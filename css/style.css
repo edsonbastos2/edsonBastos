@@ -86,7 +86,7 @@ header ul {
     font-size: 40px;
     color: #F2C409;
     text-shadow: 5px 5px 0 #000;
-    margin-bottom: 28px;
+    margin-bottom: 60px;
 }
 
 .main-title.second {
@@ -102,17 +102,20 @@ header ul {
 }
 
 .skill-tec {
+    width: 430px;
     display: flex;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
-.skill-tec .right{
+.skill-tec .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.progress-bar {
-    border: 5px solid #000;
+.nes-progress {
+    width: 362px;
     height: 40px;
 }
 
@@ -126,10 +129,44 @@ header ul {
 
 
 .skill-tec .icon {
-    margin-right: 25px;
+    margin-right: 10px;
+    width: 64px;
+
 }
 
 .skill-tec .title {
     font-size: 25px;
     color: #fff;
+    margin-bottom: 10px;
+}
+
+.wrapper-skill {
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.skill-tec:nth-child(odd) {
+    margin-right: 100px;
+}
+
+.projetos {
+    padding: 50px 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.projetos .card {
+    width: 280px;
+    height: 280px;
+    background-color: #F2C409;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
