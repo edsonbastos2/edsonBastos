@@ -331,11 +331,22 @@ header ul {
 
 .caroucel::after {
     content: '';
-    width: 100%;
+    display: block;
+    width: calc(100% - 80px);
     height: 5px;
     background-color: #000;
     position: absolute;
-    left: 0;
+    left: 40px;
+    top: 20px;
+}
+
+.caroucel::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    border: 2px dashed #000;
+    left: 0px;
     top: 20px;
 }
 
