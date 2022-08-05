@@ -215,6 +215,8 @@ header ul {
     box-shadow: 10px 10px 0 #fff;
 }
 
+/* About */
+
 .about {
     padding: 50px 0;
 }
@@ -227,6 +229,8 @@ header ul {
 .about p {
     font-size: 1.125rem;
     line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: justify;
 }
 
 /* Button Arrow */
@@ -286,7 +290,7 @@ header ul {
     align-items: center;
     height: 140px;
     padding: 0 20px;
-    background-color: #000;
+    background-color: #fff;
     border: 5px solid #F2C409;
 }
 
@@ -294,11 +298,57 @@ header ul {
     padding: 0;
 }  */
 
+.node-card .logo.-uol {
+    background-color: #fff;
+}
+.node-card .logo.-uol img {
+    width: 117px;
+}
 .node-card .logo.-planner {
     background-color: #fff;
 }
 
 .node-card .logo.-planner img {
     height: 117px;
+}
+
+.node-card .logo.-singular {
+    background-color: #fff;
+}
+
+.node-card .logo.-singular img {
+    width: 117px;
+}
+
+/* caroucel */
+
+.caroucel {
+    position: relative;
+    padding: 0 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caroucel::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+
+.caroucel .btn-arrow {
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(50%);
+}
+
+.caroucel .btn-arrow.-left {
+    left: 15px;
+}
+.caroucel .btn-arrow.-right {
+    right: 15px;
 }
 
