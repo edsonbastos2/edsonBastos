@@ -229,8 +229,8 @@ header ul {
 .about p {
     font-size: 1.125rem;
     line-height: 1.5;
-    margin-bottom: 30px;
     text-align: justify;
+    padding: 50px 30px;
 }
 
 /* Button Arrow */
@@ -320,16 +320,16 @@ header ul {
     width: 117px;
 }
 
-/* caroucel */
+/* carrousel */
 
-.caroucel {
+.carrousel {
     position: relative;
     padding: 0 85px;
     display: flex;
     justify-content: space-between;
 }
 
-.caroucel::after {
+.carrousel::after {
     content: '';
     display: block;
     width: calc(100% - 80px);
@@ -340,7 +340,7 @@ header ul {
     top: 20px;
 }
 
-.caroucel::before {
+.carrousel::before {
     content: '';
     display: block;
     position: absolute;
@@ -350,16 +350,26 @@ header ul {
     top: 20px;
 }
 
-.caroucel .btn-arrow {
+.carrousel .btn-arrow {
     position: absolute;
     bottom: 70px;
     transform: translateY(50%);
 }
 
-.caroucel .btn-arrow.-left {
+.carrousel .btn-arrow.-left {
     left: 15px;
 }
-.caroucel .btn-arrow.-right {
+.carrousel .btn-arrow.-right {
     right: 15px;
 }
 
+.carrousel .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carrousel .elements {
+    display: flex;
+    justify-content: space-between;
+    transition: transform 100ms ease-in-out;
+}
