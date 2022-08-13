@@ -383,10 +383,6 @@ header ul {
     border-bottom: 10px solid #202020;
 }
 
-.contact h2 {
-    margin-bottom: 80px;
-}
-
 .nes-field {
     margin-bottom: 60px;
 }
@@ -410,6 +406,7 @@ header ul {
 
 .nes-field .nes-textarea {
     height: 315px;
+    resize: none;
 }
 
 .nes-field button {
