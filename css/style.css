@@ -30,6 +30,7 @@ header {
         background-color: #000;
         width: 100%;
         height: 100%;
+        z-index: 1000;
     }
 
     .menu ul {
@@ -38,6 +39,23 @@ header {
         align-items: flex-start;
         gap: 20px;
         padding: 1rem;
+    }
+
+    .menu ul li .link {
+        color: #fff !important;
+    }
+
+    .menu ul .icon-close {
+        color: #fff !important;
+        font-size: 45px !important;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        transition: transform 400ms cubic-bezier(.25, .1, .32, 1.14);;
+    }
+
+    .menu ul .icon-close:hover {
+        transform: scale(1.4);
     }
 }
 
