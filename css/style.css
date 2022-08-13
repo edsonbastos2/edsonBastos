@@ -28,6 +28,12 @@ header {
     }
 }
 
+@media (min-width: 980px) {
+    .container > .icon-menu {
+        display: none;
+    }
+}
+
 header a img {
     width: 64px;
     height: auto;
