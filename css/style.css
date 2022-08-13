@@ -402,11 +402,13 @@ header ul {
 
 .nes-field input[type="text"], input[type="email"] {
     height: 50px;
+    outline: none;
 }
 
 .nes-field .nes-textarea {
     height: 315px;
     resize: none;
+    outline: none;
 }
 
 .nes-field button {
