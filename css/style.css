@@ -374,6 +374,45 @@ header ul {
     transition: transform 100ms ease-in-out;
 }
 
+/* Formulário */
+
+.contact {
+    padding: 50px 40px;
+    background-color: #F2C409;
+}
+
+.contact h2 {
+    margin-bottom: 80px;
+}
+
+.nes-field {
+    margin-bottom: 60px;
+}
+
+.nes-field.btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nes-field>label {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.nes-field input[type="text"], input[type="email"] {
+    height: 50px;
+}
+
+.nes-field .nes-textarea {
+    height: 315px;
+}
+
+.nes-field button {
+    height: 60px;
+}
 /* Footer */
 
 .rodape {
