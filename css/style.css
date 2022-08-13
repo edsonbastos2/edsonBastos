@@ -9,8 +9,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1250px;
     margin: 0 auto;
+}
+
+@media (max-width: 980px) {
+    .container > .menu {
+        display: none;
+    }
 }
 
 header a img {
